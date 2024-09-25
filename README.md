@@ -36,38 +36,32 @@ This project demonstrates a basic microservice architecture, incorporating key c
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
-
-git clone https://github.com/karan-sachdev/com.microservice.git 
-cd microservice-example
-
+  
+      `git clone https://github.com/karan-sachdev/com.microservice.git`
+      `cd com.microservice`
 
 2. **Build the project:**
 
-Ensure you have Gradle installed, then run:
-
-./gradlew build
-
+      Ensure you have Gradle installed, then run:
+      `./gradlew build`
 
 3. **Start the Eureka Server:**
 
-Navigate to the Eureka Server directory and run:
-
-./gradlew bootRun
+      Navigate to the Eureka Server directory and run:
+      `./gradlew bootRun`
 
 4. **Start the API Gateway:**
 
-In a new terminal, navigate to the API Gateway directory and run:
-
-./gradlew bootRun
-
+      In a new terminal, navigate to the API Gateway directory and run:
+      `./gradlew bootRun`
 
 5. **Start the RESTful Services:**
 
-Repeat the previous step for each microservice you have implemented.
+      Repeat the previous step for each microservice you have implemented.
 
 6. **Access the application:**
 
-Open your browser and go to `http://localhost:8080` (or your configured API Gateway port).
+      Open your browser and go to `http://localhost:8080` (or your configured API Gateway port).
 
 ## Features
 
